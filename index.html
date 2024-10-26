@@ -3,75 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Livros Favoritos</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Livros Favoritos da Ana Lyvia</title>
+  <style>
+    body {
+      background-color: #ffe4e9;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #ff66a3;
+      text-align: center;
+      font-size: 2.5em;
+    }
+    .book {
+      border: 2px solid #ff66a3;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      background-color: #fff;
+    }
+    .book img {
+      width: 150px;
+      height: auto;
+      float: left;
+      margin-right: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .book h2 {
+      color: #ff66a3;
+      font-size: 1.5em;
+    }
+    .book p {
+      font-size: 1em;
+      color: #555;
+    }
+    .book a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #ff66a3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .book a:hover {
+      color: #ff3399;
+    }
+  </style>
 </head>
 <body>
-  <header>
+  <div class="container">
     <h1>Meus Livros Favoritos</h1>
-    <p>Descubra alguns dos meus livros preferidos com temas diversos!</p>
-  </header>
 
-  <section class="books">
-    <article class="book">
+    <div class="book">
+      <img src="manual-assassinato.jpg" alt="Manual de Assassinato para Duas Garotas">
       <h2>Manual de Assassinato para Duas Garotas</h2>
-      <p>Uma história de mistério e vingança com uma trama cheia de reviravoltas.</p>
-    </article>
+      <p>Descrição breve do livro aqui.</p>
+      <a href="https://link-do-livro.com" target="_blank">Saiba mais</a>
+    </div>
 
-    <article class="book">
+    <div class="book">
+      <img src="rainha-vermelha.jpg" alt="A Rainha Vermelha">
       <h2>A Rainha Vermelha</h2>
-      <p>Uma história de fantasia e poder onde a protagonista descobre um mundo dividido pela cor do sangue.</p>
-    </article>
+      <p>Descrição breve do livro aqui.</p>
+      <a href="https://link-do-livro.com" target="_blank">Saiba mais</a>
+    </div>
 
-    <article class="book">
-      <h2>Saga Harry Potter</h2>
-      <p>A jornada do jovem bruxo Harry Potter em Hogwarts, repleta de aventuras e descobertas.</p>
-    </article>
+    <!-- Repita o código acima para cada livro -->
 
-    <article class="book">
-      <h2>Oito Assassinatos Perfeitos</h2>
-      <p>Uma lista de crimes perfeitos, mas com consequências inesperadas para o criador da lista.</p>
-    </article>
-
-    <article class="book">
-      <h2>Alice no País das Maravilhas</h2>
-      <p>Uma aventura surreal no mundo mágico do País das Maravilhas.</p>
-    </article>
-
-    <article class="book">
-      <h2>Garota do Lago</h2>
-      <p>Uma história de suspense que se desenrola após um assassinato misterioso em uma cidade tranquila.</p>
-    </article>
-
-    <article class="book">
-      <h2>Eu Sei o Que Vocês Fizeram no Verão Passado</h2>
-      <p>Suspense que envolve segredos do passado e vingança.</p>
-    </article>
-
-    <article class="book">
-      <h2>É Assim Que Acaba</h2>
-      <p>Uma história emocionante sobre amor, coragem e superação.</p>
-    </article>
-
-    <article class="book">
-      <h2>É Assim Que Começa</h2>
-      <p>Continuação emocionante de "É Assim Que Acaba", explorando novos dilemas e decisões.</p>
-    </article>
-
-    <article class="book">
-      <h2>Até o Verão Terminar</h2>
-      <p>Um romance que celebra o verão e o amor.</p>
-    </article>
-
-    <article class="book">
-      <h2>Verde</h2>
-      <p>Um livro poético e inspirador sobre autodescoberta e aceitação.</p>
-    </article>
-
-    <article class="book">
-      <h2>A Princesa Salva a Si Mesmo Nesse Livro</h2>
-      <p>Uma coletânea poética poderosa que celebra a força feminina.</p>
-    </article>
-  </section>
+  </div>
 </body>
 </html>
